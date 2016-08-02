@@ -11,6 +11,8 @@ namespace HFC187_RaceBetting
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+
+         
         [STAThread]
         static void Main()
         {
@@ -18,5 +20,7 @@ namespace HFC187_RaceBetting
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
+
     }
 }
